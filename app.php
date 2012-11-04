@@ -7,7 +7,7 @@
         // Define your controller methods, remembering to return a value for the browser!
         public function get_index()
         {
-        	$this->render('index', array('name' => 'Greg'));
+        	return $this->render('index', array('name' => 'Greg'));
         }
     }
 
